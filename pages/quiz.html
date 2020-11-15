@@ -1,0 +1,49 @@
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <button id="sign_up" type="button" name="button"><a href="form.html">Sign up</a></button>
+    <button id="home" type="button" name="button"><a href="../index.html">Home</a></button>
+    <hr style="margin-top: 50px">
+    <h2>Awesome Quiz</h2>
+    <div id="quiz">
+      <h3 id="question"></h3>
+        <div id="BlindTest">
+          <audio> </audio>
+          <br>
+          <label>Réponse:</label>
+          <input type="text" id="reponse">
+          <input type="button" value="Valider" id="submitBlind">
+        </div>
+        <div id="QCM">
+          <div class="buttons">
+              <button id="btn0"><span id="choice0"></span></button>
+              <button id="btn1"><span id="choice1"></span></button>
+              <button id="btn2"><span id="choice2"></span></button>
+              <button id="btn3"><span id="choice3"></span></button>
+          </div>
+        </div>
+    </div>
+
+
+      <hr style="margin-top: 50px">
+      <footer>
+          <p id="progress">Question x of y</p>
+      </footer>
+    </div>
+    <script src="../js/media.js"></script>
+    <script src="../js/song.js"></script>
+    <script src="../js/movie.js"></script>
+    <script src="../js/playlist.js"></script>
+    <script src="../js/creationPlaylist.js"></script>
+    <script src="../js/quiz.js"></script>
+    <script src="../js/questionQCM.js"></script>
+    <script src="../js/questionBlind.js"></script>
+    <script src="../js/quizController.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Playlist</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <button id="sign_up" type="button" name="button"><a href="form.html">Sign up</a></button>
+    <button id="home" type="button" name="button"><a href="../index.html">Home</a></button>
+    <div id="playlist">
+      <div id="list">
+        <ul id="playlistList">
+          <li>
+            <div id="headerPlaylistList">
+              <h2 id="playlistTitle">Amazing Playlist</h2>
+            </div>
+          </li>
+          <li id="footerPlaylistList">
+            <div id="playerButton">
+                <button id="playMedia" type="button">play</button>
+                <button id="nextMedia" type="button">next</button>
+                <button id="stopMedia" type="button">stop</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="player">
+        <video></video>
+        <audio></audio>
+      </div>
+    </div>
+    <script src = "../js/media.js"></script>
+    <script src = "../js/song.js"></script>
+    <script src = "../js/movie.js"></script>
+    <script src = "../js/playlist.js"></script>
+    <script src = "../js/creationPlaylist.js"></script>
+    <script src = "../js/playlistController.js"></script>
+  </body>
+</html>

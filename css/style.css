@@ -1,0 +1,308 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+
+/*
+	Dopetrope by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+html, body, div, applet, object, iframe, h1, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 2%;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+    font-family: 'Source Sans Pro';
+}
+
+span{
+	font-size: 90%;
+}
+
+body {
+
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		color: #5d5d5d;
+    border-bottom: 1px solid black;
+    padding : 2em;
+	}
+
+h2{
+  color: #252122;
+  font-weight: 300;
+  font-size: 1.7em;
+  letter-spacing: -0.035em;
+  margin: 0 0 .5em 0;
+}
+#myHeading {
+  color: #252122;
+  font-weight: 900;
+  font-size: 2.5em;
+  letter-spacing: -0.035em;
+  margin: 0 0 .5em 0;
+}
+
+
+p {
+  color: #24445C;
+  font-weight: 300;
+  font-size: 1.3em;
+  letter-spacing: -0.035em;
+  margin: 0 0 .5em 0;
+}
+
+
+button {
+  background-color: rgba(72, 201, 176, 0.8);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: .5em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin : 0.3em;
+}
+
+input{
+  border-radius: 4px;
+  padding: .4em .4em;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin : 0.3em;
+}
+
+#progress{
+  font-size: 90%;
+	opacity: 70%;
+}
+
+.grid{
+  /* To complete */
+}
+
+.centered_div {
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.centered_div button{
+  width: 45%;
+}
+
+#sign_up{
+  font-size: 10pt;
+  margin-top: 3%;
+  margin-right: 5%;
+  position:absolute;
+  top:0;
+  right:0;
+  width: 10%;
+  background-color: rgb(34, 167, 240);
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+div#div_form{
+	text-align:center;
+	border:1px solid #ccc;
+	width:300px;
+	padding:0 50px 15px;
+	margin-top:20px;
+	box-shadow:0 0 15px;
+	border-radius:6px;
+	float:left;
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+hr{
+	margin-top:-5px;
+}
+
+#div_form label{
+	float:left;
+	font-size:16px;
+}
+
+#div_form input[type="text"]{
+	width:100%;
+	margin-top:10px;
+	height:35px;
+	margin-bottom:25px;
+	padding:10px;
+	border:3px solid #2BC1F2;
+}
+#div_form input[type="button"]{
+	width:100%;
+	padding:10px 45px;
+	background-color:#2BC1F2;
+	border:none;
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	cursor:pointer;
+	font-family:'Ubuntu',sans-serif;
+	text-align: center;
+}
+#playerButton button[type="button"]
+{
+	cursor:pointer;
+}
+#addMedia {
+	cursor: pointer;
+}
+
+#home{
+	font-size: 150%;
+}
+.divMedia p{
+	display: inline-block;
+}
+.divMedia div{
+	display: inline-block;
+}
+.isSelected .divMedia{
+	background-color: rgb(195,63,96);
+}
+.isSelected .divMedia p{
+	color:white;
+}
+#playerButton{
+	text-align: center;
+}
+.likeCheckBox
+{
+	margin:0;
+	padding:0;
+	background:none;
+	font-size: 15px;
+	color:black;
+	cursor: pointer;
+}
+.likeCheckBox:checked{
+	color: rgb(72, 201, 176);
+}
+.likeCheckBox:hover{
+	border: 2px solid;
+	border-radius: 45%;
+	border-color:  rgb(72, 201, 176);
+}
+#list{
+	margin: 0;
+	display:inline-block;
+	width: 100%;
+}
+#player{
+	margin: 0;
+	display: inline-block;
+}
+#playlist{
+	margin: 0;
+	text-align: center;
+}
+#playlistList{
+	margin-left: 25%;
+	margin-right: 25%;
+	list-style: none;
+}
+#player video{
+	margin: 0;
+	padding: 0;
+}
+#playlistTitle{
+	font-weight: bold;
+	color:#FFFFFF;
+}
+#headerPlaylistList{
+	background-color: rgb(210,76,126);
+}
+ #playerButton{
+	 background-color: rgb(222,127,163);
+ }
+#playerButton button{
+	background-color: white;
+	color: black;
+}
+.divInfo
+{
+	cursor: pointer;
+}
+.notSelected .divMedia:hover{
+	background-color: rgba(195,63,96,0.1);
+}
+.divlike{
+	margin: 0;
+	width: 10%;
+}
+.divInfo{
+	margin: 0;
+	width: 80%;
+	padding-left: 10%;
+	text-align: center;
+}
+.divInfo p{
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+.divlike p{
+	width: 45%;
+	margin: 0;
+}
+.divlike button
+{
+	width: 45%;
+	margin: 0;
+}
+#BlindTest{
+	display: none;
+}
+
+#QCM{
+	display: none;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    width: 100px;
+    font-size: 110%;
+    color: white;
+		border: 1px solid rgba(72, 201, 176, 0.8);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: white;
+		color:rgba(72, 201, 176, 0.8);
+		border: 1px solid rgba(72, 201, 176, 0.8);
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#submitBlind{
+	padding:10px 45px;
+	background-color:#2BC1F2;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-family:'Ubuntu',sans-serif;
+	text-align: center;
+}
